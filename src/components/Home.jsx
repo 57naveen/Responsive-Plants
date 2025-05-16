@@ -2,8 +2,20 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section id='home'>
+    <section id='home' className='relative'>
         <div className='container'>
+
+                {/*------ blob1 ------------*/}
+                <div className="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+
+                </div>
+
+                 {/*------ blob2 ------------*/}
+                <div className="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute right-0 bottom-0">
+
+                </div>
+
+
             <div className='flex flex-col items-center gap-5 lg:flex-row'>
 
                 {/*----------------- content----------------------- */}
@@ -49,19 +61,19 @@ const Home = () => {
                         <img src='/images/home.png' className='' alt='home_image'/>
 
                         {/* ---leaf---*/}
-                            <div className='absolute top-10 right-10 opacity-30'>
+                            <div className='absolute top-10 right-10 opacity-30  animate-movingY xl:top-5'>
                                 <i className='ri-leaf-line text-6xl text-yellow-500 '></i>
                             </div>
 
                             
                         {/* ----flower---- */}
-                        <div className='absolute bottom-0 left-0 opacity-30'>
+                        <div className='absolute bottom-0 left-0 opacity-30 animate-rotating'>
                                 <i className='ri-flower-line text-6xl text-yellow-500'></i>
                             </div>
 
                             
                         {/* ----plant---- */}
-                        <div className='hidden absolute top-10 -left-5 opacity-30 lg:block'>
+                        <div className='hidden absolute -top-1 -left-5 opacity-30 lg:block xl:bottom-12 animate-scalingUp'>
                                 <i className='ri-plant-line text-6xl text-yellow-500'></i>
                             </div>
 

@@ -39,7 +39,7 @@ const Header = () => {
     <>
         <header id='navbar' className='bg-green-950 fixed w-full top-0 left-0 z-50 '>
             <nav className='container flex items-center justify-between h-16 sm:h-20 '>
-                <div className='sm:text-2xl ml-10'>IndorePlants</div>
+                <div className='sm:text-2xl ml-10 font-Lobster'>IndorePlants</div>
 
 
                 <div id='nav-menu' className='absolute top-0 left-[-100%] min-h-[80vh] w-full bg-green-950/80 backdrop-blur-sm flex items-center
