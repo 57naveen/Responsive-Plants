@@ -1,23 +1,12 @@
-import './App.css'
-import About from './components/About'
-import Header from './components/Header'
-import Home from './components/Home'
-import Popular from './components/Popular'
-import Review from './components/Review'
-import Services from './components/Services'
+import { BrowserRouter as Router } from 'react-router-dom'
+import AnimatedRoutes from './components/AnimatedRoutes'
+
 
 function App() {
-
-
   return (
-   <>
-   <Header/>
-   <Home/>
-   <Services/>
-   <About/>
-   <Popular/>
-   <Review/>
-   </>
+    <Router>
+      <AnimatedRoutes />
+    </Router>
   )
 }
 

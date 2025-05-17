@@ -19,7 +19,7 @@ const Home = () => {
             <div className='flex flex-col items-center gap-5 lg:flex-row'>
 
                 {/*----------------- content----------------------- */}
-                <div className='w-full space-y-5 lg:w-1/2'>
+                <div className='w-full space-y-5 lg:w-1/2'  data-aos="fade-down">
                     <h1>
                         <span className='text-yellow-500'>Plants</span> make a <br />
                          positive
@@ -27,8 +27,7 @@ const Home = () => {
                     </h1>
 
                     <p className='text-slate-300 font-Lobster'>
-                    A dummy paragraph is a block of text used to fill a space on a webpage or document during the design phase, allowing designers and content creators to visualize the layout and format of the final content without being distracted by actual text.
-                    The most famous example of dummy text is "Lorem Ipsum," which has been in use since the 1500s.
+                   Plants bring life, color, and balance to any space—whether it's your home, office, or garden. They improve air quality, reduce stress, and uplift your mood, creating a healthier and more vibrant environment. Discover the perfect blend of nature and design with our curated collection of original plants and eco-friendly solutions.
                     </p>
 
                     <div className='flex flex-col gap-2 sm:flex-row md:gap-4 lg:pt-5 xl:pt-10'>
@@ -57,7 +56,7 @@ const Home = () => {
                 </div>
 
                 {/*/-------------------------- images ---------------*/}
-                    <div className='w-full relative lg:w-1/2'>
+                    <div className='w-full relative lg:w-1/2'  data-aos="fade-down">
                         <img src='/images/home.png' className='' alt='home_image'/>
 
                         {/* ---leaf---*/}
