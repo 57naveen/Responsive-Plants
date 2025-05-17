@@ -21,7 +21,7 @@ const Home = () => {
                 {/*----------------- content----------------------- */}
                 <div className='w-full space-y-5 lg:w-1/2'>
                     <h1>
-                        <span className='text-yellow-500'>plants</span> make a <br />
+                        <span className='text-yellow-500'>Plants</span> make a <br />
                          positive
                         <span className='text-yellow-500'> on <br/>  your environment</span>
                     </h1>
@@ -73,7 +73,7 @@ const Home = () => {
 
                             
                         {/* ----plant---- */}
-                        <div className='hidden absolute -top-1 -left-5 opacity-30 lg:block xl:bottom-12 animate-scalingUp'>
+                        <div className='hidden absolute top-5 -left-5 opacity-30 lg:block xl:bottom-12 animate-pulsing'>
                                 <i className='ri-plant-line text-6xl text-yellow-500'></i>
                             </div>
 
